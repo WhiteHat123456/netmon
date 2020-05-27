@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>NetMon v1.0</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./bootstrap.min.css" rel="stylesheet">
+  <meta name="theme-color" content="#563d7c">
+
+  <style>
+
+    .container {
+      max-width: 960px;
+    }
+
+    .site-header {
+      background-color: rgba(245, 250, 255, .85);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.06);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+    }
+
+    .site-header a {
+      color: #111;
+      transition: ease-in-out color .15s;
+    }
+
+    .site-header a:hover {
+      color: #666;
+      text-decoration: none;
+    }
+
+    @media (min-width: 768px) {
+      .flex-md-equal>* {
+        -ms-flex: 1;
+        flex: 1;
+      }
+    }
+
+    .overflow-hidden {
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#" aria-label="Product">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+          viewBox="0 0 24 24" focusable="false">
+          <title>NetMon</title>
+          <circle cx="12" cy="12" r="10" />
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+        </svg>
+      </a>
+      <a class="py-2 d-none d-md-inline-block" href="#"><b>NetMon</b></a>
+    </div>
+  </nav>
+
+  <div class="container py-5" id="container"></div>
+
+  <script src="./netmon.js"></script>
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+          viewBox="0 0 24 24" focusable="false">
+          <title>NetMon</title>
+          <circle cx="12" cy="12" r="10" />
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+        </svg>
+        <small class="d-block mb-3 text-muted">NetMon &copy; 2020</small>
+      </div>
+      <div class="col-6 col-md"></div>
+      <div class="col-6 col-md"></div>
+      <div class="col-6 col-md"></div>
+      <div class="col-6 col-md"></div>
+    </div>
+  </footer>
+
+</html>
